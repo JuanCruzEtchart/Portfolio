@@ -1,12 +1,13 @@
-/* import "../assets/css/Navbar.css";
-import React, { useState, useEffect } from "react";
-import icon from "../assets/images/icon.png"; */
-import "../assets/css/Navbar.css";
+import React from "react";
+/* import "../assets/css/Navbar.css"; */
 
-function Header() {
+function Navbar() {
   return (
-    <nav className="navbar">
-      <ol className="navbar__links" type="i">
+    <nav className="navbar w-full flex items-center justify-end h-[100px]">
+      <ol
+        className="navbar__links text-white list-roman flex justify-evenly w-[50%] font text-[13px] items-center marker:text-[red]"
+        type="i"
+      >
         <li>
           <a>Sobre mí</a>
         </li>
@@ -19,7 +20,7 @@ function Header() {
         <li>
           <a>Contacto</a>
         </li>
-        <li>
+        <li className="list-none p-3 border-2 border-orange-700 rounded-[5px]">
           <a>Currículum</a>
         </li>
       </ol>
@@ -27,4 +28,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navbar;
