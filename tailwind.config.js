@@ -10,6 +10,9 @@ module.exports = {
         square: "square",
         roman: "upper-roman",
       },
+      colors: {
+        "detail": "#FFC700",
+      },
     },
   },
   plugins: [],

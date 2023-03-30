@@ -5,8 +5,8 @@ import "../assets/css/App.css";
 
 function App() {
   return (
-    <div className="App bg-[#0A192F] h-screen min-h-[100vh] w-screen">
-      <header className="App-header">
+    <div className="App bg-[#0A192F] h-screen min-h-[100vh] w-screen flex justify-center">
+      <header className="App-header w-screen flex flex-col justify-start items-center">
         <Navbar />
         <Introduction />
         {/* <div className="bg-[#0A192F] h-screen"></div> */}
