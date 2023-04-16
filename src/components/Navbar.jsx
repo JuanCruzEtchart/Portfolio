@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar w-full flex items-center justify-between h-[100px] fixed z-10 backdrop-blur">
+    <nav className="navbar min-w-[calc(100vw-17px)] flex items-center justify-between h-[100px] fixed z-10 backdrop-blur">
       <img src={LogoJS} alt="JC Logo" className="w-10 ml-10" />
       <ol
         className="navbar__links text-white list-roman flex justify-evenly font text-[13px] items-center  mr-10"

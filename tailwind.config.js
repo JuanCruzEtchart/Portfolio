@@ -11,9 +11,9 @@ module.exports = {
         roman: "upper-roman",
       },
       colors: {
-        "detail": "#FFC700",
+        detail: "#FFC700",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
