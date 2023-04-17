@@ -1,16 +1,15 @@
 import React from "react";
-import Foto from "../assets/images/Foto.png";
 
-function About() {
+function Experience() {
   return (
     <div
       className="flex flex-col text-white text-2xl mt-36 w-screen max-w-[1000px]"
       id="About"
     >
       <div className="flex items-center mb-12">
-        <h2 className="h-4ll text-detail">I.</h2>
+        <h2 className="h-4ll text-detail">II.</h2>
         <div className="ml-2 w-[auto] mr-5 text text-3xl" href="#">
-          Sobre mí
+          Experiencia
         </div>
         <div className="border-b border-0 border-detail w-[250px]"></div>
       </div>
@@ -51,7 +50,6 @@ function About() {
           </div>
         </div>
         <div className="relative w-[365px]">
-          <img src={Foto} alt="" className="absolute w-[350px] rounded-[5px] z-10"/>
           <div className="absolute top-4 left-4 z-0 border-2 border-detail w-[350px] h-[308.266px] rounded-[5px]"></div>
           <div className="absolute inset-0 rounded-lg transition duration-500"></div>
         </div>
@@ -59,4 +57,4 @@ function About() {
     </div>
   );
 }
-export default About;
+export default Experience;

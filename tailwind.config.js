@@ -13,7 +13,10 @@ module.exports = {
       colors: {
         detail: "#FFC700",
       },
+      boxShadow: {
+        default: "0 6px 6px rgba(0, 0, 0, 0.2)",
+      },
     },
   },
-  plugins: [require("tailwind-scrollbar-hide")],
+  plugins: [],
 };
