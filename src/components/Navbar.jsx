@@ -28,30 +28,30 @@ function Navbar() {
             <li className="flex items-center p-2.5">
               {/* <a className="items-center">Sobre mí</a> */}
               <div className="h-4ll text-detail">I.</div>
-              <Link className="ml-2 w-auto" to="/#About">
+              <Link className="ml-2 w-auto hover:text-detail transition duration-150 ease-in-out" to="/#About">
                 Sobre mí
               </Link>
             </li>
             <li className="flex items-center p-2.5">
               {/* <a>Experiencia</a> */}
               <div className="h-4ll text-detail">II.</div>
-              <a className="ml-2" href="#">
+              <Link className="ml-2 hover:text-detail transition duration-150 ease-in-out" href="#">
                 Experiencia
-              </a>
+              </Link>
             </li>
             <li className="flex items-center p-2.5">
               {/* <a>Proyectos</a> */}
               <div className="h-4ll text-detail">III.</div>
-              <a className="ml-2" href="#">
+              <Link className="ml-2 hover:text-detail transition duration-150 ease-in-out" href="#">
                 Proyectos
-              </a>
+              </Link>
             </li>
             <li className="flex items-center p-2.5">
               {/* <a>Contacto</a> */}
               <div className="h-4ll text-detail">IV.</div>
-              <a className="ml-2" href="#">
+              <Link className="ml-2 hover:text-detail transition duration-150 ease-in-out" href="#">
                 Contacto
-              </a>
+              </Link>
             </li>
             <li className="list-none p-3 border-2 border-detail text-detail rounded-[5px] ml-4">
               <a href={CV} target="_blank" download="CV - Juan Cruz Etchart">

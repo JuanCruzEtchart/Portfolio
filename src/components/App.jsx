@@ -31,7 +31,6 @@ function App() {
             <div className="h-screen w-screen">
               {navbarVisible && <Navbar className="app__navbar" />}
               <div className="App-header w-screen flex flex-col justify-start items-center">
-                {/* <Navbar /> */}
                 <Introduction />
                 <Social />
                 <About />

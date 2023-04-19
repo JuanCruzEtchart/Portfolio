@@ -49,10 +49,7 @@ function Experience() {
             </ul>
           </div>
         </div>
-        <div className="relative w-[365px]">
-          <div className="absolute top-4 left-4 z-0 border-2 border-detail w-[350px] h-[308.266px] rounded-[5px]"></div>
-          <div className="absolute inset-0 rounded-lg transition duration-500"></div>
-        </div>
+
       </div>
     </div>
   );

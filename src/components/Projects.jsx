@@ -21,6 +21,7 @@ function Projects() {
               Siempre tuve interés en la computación y la programación, y
               durante 2022 decidí hacer un bootcamp en Digital House sobre
               desarrollo web full stack.
+              
             </p>
             <p>
               A día de hoy me encuentro desarrollando una aplicación completa en
