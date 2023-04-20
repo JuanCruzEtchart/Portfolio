@@ -9,17 +9,18 @@ function Navbar() {
 
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
-    if (currentScrollY > 0 && navbarVisible) {
+    console.log(currentScrollY);
+/*     if (currentScrollY > 0 && navbarVisible) {
       setNavbarVisible(false);
     } else if (currentScrollY === 0 && !navbarVisible) {
       setNavbarVisible(true);
-    }
+    } */
   };
 
   return (
     <div onScroll={handleScroll}>
       {navbarVisible && (
-        <nav className="navbar min-w-[calc(100vw-17px)] flex items-center justify-between h-[100px] fixed z-50 backdrop-blur shadow-default">
+        <nav className="navbar min-w-[calc(100vw-17px)] flex items-center justify-between h-[80px] fixed z-50 backdrop-blur">
           <img src={LogoJS} alt="JC Logo" className="w-10 ml-10" />
           <ol
             className="navbar__links text-white list-roman flex justify-evenly font text-[13px] items-center mr-10"
